@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group-9</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ff0101;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+            background-color: #1a01ff;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .member {
+            background-color: #ffffff;
+            width: 250px;
+            margin: 20px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+            text-align: center;
+            border-radius: 8px;
+        }
+        .member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .member h3 {
+            margin: 10px 0 5px;
+        }
+        .member p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .member a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Meet Our Team</h1>
+            <h3>Group-9</h3>
+        </div>
+        <div class="team">
+            <div class="member">
+                <img src="Finez.jpg" alt="Finez">
+                <h3>John Dred Finez</h3>
+                <p>Leader</p>
+                <a href="https://m.facebook.com/jhndrdfnz/">Click Me!</a>
+            </div>
+            <div class="member">
+                <img src="Arcilla.jpg" alt="Arcilla">
+                <h3>Michael Roy Arcilla</h3>
+                <p>Member</p>
+                <a href="https://www.facebook.com/michael.arcilla.7140/">Click Me!</a>
+            </div>
+            <div class="member">
+                <img src="Nuza.jpg" alt="Nuza">
+                <h3>John Luis Nuza</h3>
+                <p>Member</p>
+                <a href="https://www.facebook.com/johnxluis14?mibextid=ZbWKwL">Click Me!</a>
+            </div>
+            <div class="member">
+                <img src="Dimaya.jpg" alt="Dimaya">
+                <h3>John christian Dimaya</h3>
+                <p>Member</p>
+                <a href="https://www.facebook.com/johnchristian.dimaya.5">Click Me!</a>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- Just a simple or basic html to practice our skills (group9) -->
